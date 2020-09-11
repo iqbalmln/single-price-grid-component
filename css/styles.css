@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 5% auto;
+}
+.content{
+  width: 650px;
+  height: 450px;
+  margin: auto;
+  background-color: violet;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+.join{
+  padding: 25px;
+  background: whitesmoke;
+}
+.join h2{
+  color: hsl(179, 62%, 43%);
+  font-size: 20px;
+  font-weight: 900;
+}
+.ppk{
+  color: hsl(71, 73%, 54%);
+}
+.pp{
+  color: gray;
+  font-size: 14px;
+}
